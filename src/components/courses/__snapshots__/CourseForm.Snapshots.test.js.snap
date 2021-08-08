@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should check text of save button to be 'Save' when not saving 1`] = `
+<form
+  onSubmit={[MockFunction]}
+>
+  <h2>
+    Edit
+     course
+  </h2>
+  <div
+    className="form-group"
+  >
+    <label>
+      Title
+    </label>
+    <div>
+      <input
+        className="form-control mb-3"
+        name="title"
+        onChange={[MockFunction]}
+        type="text"
+        value="Securing React Apps with Auth0"
+      />
+    </div>
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Author
+    </label>
+    <div>
+      <select
+        className="form-control mb-3"
+        name="authorId"
+        onChange={[MockFunction]}
+        value={1}
+      >
+        <option
+          value=""
+        >
+          Select Author
+        </option>
+        console.log(options)
+        <option
+          value={1}
+        >
+          John Stuart Mill
+        </option>
+        <option
+          value={2}
+        >
+          Scott Allen
+        </option>
+        <option
+          value={3}
+        >
+          Dan Wahlin
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Category
+    </label>
+    <div>
+      <input
+        className="form-control mb-3"
+        name="category"
+        onChange={[MockFunction]}
+        type="text"
+        value="JavaScript"
+      />
+    </div>
+  </div>
+  <button
+    className="btn btn-primary"
+    disabled={false}
+    type="submit"
+  >
+    Save
+  </button>
+</form>
+`;
+
+exports[`Should check text of save button to be 'Saving...' when saving 1`] = `
+<form
+  onSubmit={[MockFunction]}
+>
+  <h2>
+    Edit
+     course
+  </h2>
+  <div
+    className="form-group"
+  >
+    <label>
+      Title
+    </label>
+    <div>
+      <input
+        className="form-control mb-3"
+        name="title"
+        onChange={[MockFunction]}
+        type="text"
+        value="Securing React Apps with Auth0"
+      />
+    </div>
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Author
+    </label>
+    <div>
+      <select
+        className="form-control mb-3"
+        name="authorId"
+        onChange={[MockFunction]}
+        value={1}
+      >
+        <option
+          value=""
+        >
+          Select Author
+        </option>
+        console.log(options)
+        <option
+          value={1}
+        >
+          John Stuart Mill
+        </option>
+        <option
+          value={2}
+        >
+          Scott Allen
+        </option>
+        <option
+          value={3}
+        >
+          Dan Wahlin
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Category
+    </label>
+    <div>
+      <input
+        className="form-control mb-3"
+        name="category"
+        onChange={[MockFunction]}
+        type="text"
+        value="JavaScript"
+      />
+    </div>
+  </div>
+  <button
+    className="btn btn-primary"
+    disabled={true}
+    type="submit"
+  >
+    Saving...
+  </button>
+</form>
+`;
